@@ -1,0 +1,6 @@
+Importar en ep_obligaciones
+21/08/2021 3:48:24 a. m.
+
+667 registros de 667 procesados correctamente.
+667 registros añadidos.
+0 registros actualizados.

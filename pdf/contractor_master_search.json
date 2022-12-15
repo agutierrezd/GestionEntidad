@@ -1,0 +1,363 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel contractor_master search}","hidden":"{$item_hide_search_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+								
+''
+,
+		
+								
+{
+	table: {
+	
+				tableForm: true,
+				
+		location: 'grid',
+		
+		
+		widths: [
+									{BEGIN col_grid_0}
+						"*", 
+							{END col_grid_0}
+					 ],	
+		
+			heights: [
+								{BEGIN row_grid_0}
+						
+			"%",
+						{END row_grid_0}
+			 
+				],
+	
+		body: [
+				
+				{BEGIN row_grid_0}
+				[
+																{BEGIN cellblock_grid_c3}
+{
+	cellId: 'c3',
+	col:0,
+	row:0,
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"stack": [
+		
+				
+			{"text":{$contractor_id_pdfvalue},"hidden":"{$item_hide_integrated_search_field}"},
+				
+				
+			{"text":{$contractor_type_pdfvalue},"hidden":"{$item_hide_integrated_search_field1}"},
+				
+				
+			{"text":{$contractor_doc_id_pdfvalue},"hidden":"{$item_hide_integrated_search_field2}"},
+				
+				
+			{"text":{$contractor_doc_dv_pdfvalue},"hidden":"{$item_hide_integrated_search_field3}"},
+				
+				
+			{"text":{$contractor_pwd_pdfvalue},"hidden":"{$item_hide_integrated_search_field4}"},
+				
+				
+			{"text":{$contractor_image_pdfvalue},"hidden":"{$item_hide_integrated_search_field5}"},
+				
+				
+			{"text":{$contractor_name_pdfvalue},"hidden":"{$item_hide_integrated_search_field6}"},
+				
+				
+			{"text":{$contractor_lname_pdfvalue},"hidden":"{$item_hide_integrated_search_field7}"},
+				
+				
+			{"text":{$contractor_nombresfull_pdfvalue},"hidden":"{$item_hide_integrated_search_field8}"},
+				
+				
+			{"text":{$enlace_sigep_pdfvalue},"hidden":"{$item_hide_integrated_search_field9}"},
+				
+				
+			{"text":{$contractor_email_pdfvalue},"hidden":"{$item_hide_integrated_search_field10}"},
+				
+				
+			{"text":{$contractor_email_mincit_pdfvalue},"hidden":"{$item_hide_integrated_search_field11}"},
+				
+				
+			{"text":{$contractor_address_pdfvalue},"hidden":"{$item_hide_integrated_search_field12}"},
+				
+				
+			{"text":{$contractor_phone_pdfvalue},"hidden":"{$item_hide_integrated_search_field13}"},
+				
+				
+			{"text":{$contractor_mobile_pdfvalue},"hidden":"{$item_hide_integrated_search_field14}"},
+				
+				
+			{"text":{$contractor_city_pdfvalue},"hidden":"{$item_hide_integrated_search_field15}"},
+				
+				
+			{"text":{$contractor_sup_jerarquico_pdfvalue},"hidden":"{$item_hide_integrated_search_field16}"},
+				
+				
+			{"text":{$contractor_dependencia_pdfvalue},"hidden":"{$item_hide_integrated_search_field17}"},
+				
+				
+			{"text":{$bank_name_pdfvalue},"hidden":"{$item_hide_integrated_search_field18}"},
+				
+				
+			{"text":{$bank_cta_type_pdfvalue},"hidden":"{$item_hide_integrated_search_field19}"},
+				
+				
+			{"text":{$bank_cta_number_pdfvalue},"hidden":"{$item_hide_integrated_search_field20}"},
+				
+				
+			{"text":{$iva_regimen_pdfvalue},"hidden":"{$item_hide_integrated_search_field21}"},
+				
+				
+			{"text":{$sys_update_pdfvalue},"hidden":"{$item_hide_integrated_search_field22}"},
+				
+				
+			{"text":{$sys_user_pdfvalue},"hidden":"{$item_hide_integrated_search_field23}"},
+				
+				
+			{"text":{$sys_date_pdfvalue},"hidden":"{$item_hide_integrated_search_field24}"},
+				
+				
+			{"text":{$sys_level_pdfvalue},"hidden":"{$item_hide_integrated_search_field25}"},
+				
+				
+			{"text":{$sys_status_pdfvalue},"hidden":"{$item_hide_integrated_search_field26}"},
+				
+				
+			{"text":{$sys_last_upd_pdfvalue},"hidden":"{$item_hide_integrated_search_field27}"},
+				
+				
+			{"text":{$groupid_pdfvalue},"hidden":"{$item_hide_integrated_search_field28}"},
+				
+				
+			{"text":{$active_pdfvalue},"hidden":"{$item_hide_integrated_search_field29}"},
+				
+				
+			{"text":{$contractor_dependientes_pdfvalue},"hidden":"{$item_hide_integrated_search_field30}"},
+				
+				
+			{"text":{$contractor_medicinapre_file_pdfvalue},"hidden":"{$item_hide_integrated_search_field31}"},
+				
+				
+			{"text":{$contractor_picmonetaria_file_pdfvalue},"hidden":"{$item_hide_integrated_search_field32}"},
+				
+				
+			{"text":{$contractor_decljur_pdfvalue},"hidden":"{$item_hide_integrated_search_field33}"},
+				
+				
+			{"text":{$contractor_eps_pdfvalue},"hidden":"{$item_hide_integrated_search_field34}"},
+				
+				
+			{"text":{$contractor_fondopensiones_pdfvalue},"hidden":"{$item_hide_integrated_search_field35}"},
+				
+				
+			{"text":{$contractor_cajacompensacion_pdfvalue},"hidden":"{$item_hide_integrated_search_field36}"},
+				
+				
+			{"text":{$contractor_arl_pdfvalue},"hidden":"{$item_hide_integrated_search_field37}"},
+				
+				
+			{"text":{$ubica_dep_pdfvalue},"hidden":"{$item_hide_integrated_search_field38}"},
+				
+				
+			{"text":{$ubica_extension_pdfvalue},"hidden":"{$item_hide_integrated_search_field39}"},
+				
+				
+			{"text":{$dem_genero_pdfvalue},"hidden":"{$item_hide_integrated_search_field40}"},
+				
+				
+			{"text":{$dem_ocupacion_pdfvalue},"hidden":"{$item_hide_integrated_search_field41}"},
+				
+				
+			{"text":{$dem_profesion_pdfvalue},"hidden":"{$item_hide_integrated_search_field42}"},
+				
+				
+			{"text":{$ct_fecha_nacimiento_pdfvalue},"hidden":"{$item_hide_integrated_search_field43}"},
+				
+				
+			{"text":{$ct_nacionalidad_pdfvalue},"hidden":"{$item_hide_integrated_search_field44}"},
+				
+				
+			{"text":{$dem_edad_pdfvalue},"hidden":"{$item_hide_integrated_search_field45}"},
+				
+				
+			{"text":{$dem_educacion_pdfvalue},"hidden":"{$item_hide_integrated_search_field46}"},
+				
+				
+			{"text":{$dem_discapacidad_pdfvalue},"hidden":"{$item_hide_integrated_search_field47}"},
+				
+				
+			{"text":{$emergencia_pdfvalue},"hidden":"{$item_hide_integrated_search_field48}"},
+				
+				
+			{"text":{$terms_msj_pdfvalue},"hidden":"{$item_hide_integrated_search_field49}"},
+				
+				
+			{"text":{$terms_acepta_pdfvalue},"hidden":"{$item_hide_integrated_search_field50}"},
+				
+				
+			{"text":{$signature_pdfvalue},"hidden":"{$item_hide_integrated_search_field51}"},
+				
+				
+			{"text":{$pin_pdfvalue},"hidden":"{$item_hide_integrated_search_field52}"},
+				
+				
+			{"text":{$factura_pdfvalue},"hidden":"{$item_hide_integrated_search_field53}"},
+				
+				
+			{"text":{$ct_fecha_nacimiento_mun_pdfvalue},"hidden":"{$item_hide_integrated_search_field54}"},
+				
+				
+			{"text":{$actividad_economica_pdfvalue},"hidden":"{$item_hide_integrated_search_field55}"},
+				
+				
+			{"text":{$responsabilidades_pdfvalue},"hidden":"{$item_hide_integrated_search_field56}"},
+				
+				
+			{"text":{$reset_token_pdfvalue},"hidden":"{$item_hide_integrated_search_field57}"},
+				
+				
+			{"text":{$reset_date_pdfvalue},"hidden":"{$item_hide_integrated_search_field58}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+{END cellblock_grid_c3}
+											],
+				{END row_grid_0}
+		
+		]
+	}
+}
+,
+		
+								
+{
+	table: {
+	
+				
+		location: 'below-grid',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":""},
+				
+				
+			{"text":""},
+				
+				
+			{"text":"","hidden":"{$item_hide_search_back_list}"},
+				
+				
+			{"text":"","hidden":"{$item_hide_search_cancel}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+			]
+}
+  

@@ -1,0 +1,541 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel admin_users search}","hidden":"{$item_hide_search_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+								
+{
+	table: {
+	
+				
+		location: 'above-grid',
+		
+		
+		widths: [
+								"*", 
+											"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+					colSpan: 2,
+		
+			
+	
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+																		{ 
+				cellId: 'c1',
+				row:  0,
+				col:  1,
+				text: ''
+			},
+							],
+		
+		]
+	}
+}
+,
+		
+								
+{
+	table: {
+	
+				tableForm: true,
+				
+		location: 'grid',
+		
+		
+		widths: [
+									{BEGIN col_grid_0}
+						"*", 
+							{END col_grid_0}
+					 ],	
+		
+			heights: [
+								{BEGIN row_grid_0}
+						
+			"%",
+						{END row_grid_0}
+			 
+				],
+	
+		body: [
+				
+				{BEGIN row_grid_0}
+				[
+																{BEGIN cellblock_grid_c3}
+{
+	cellId: 'c3',
+	col:0,
+	row:0,
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"stack": [
+		
+				
+			{"text":{$idusrglobal_pdfvalue},"hidden":"{$item_hide_integrated_search_field}"},
+				
+				
+			{"text":{$id_fk_pdfvalue},"hidden":"{$item_hide_integrated_search_field1}"},
+				
+				
+			{"text":{$Username_pdfvalue},"hidden":"{$item_hide_integrated_search_field2}"},
+				
+				
+			{"text":{$Password_pdfvalue},"hidden":"{$item_hide_integrated_search_field3}"},
+				
+				
+			{"text":{$usr_email_pdfvalue},"hidden":"{$item_hide_integrated_search_field4}"},
+				
+				
+			{"text":{$usr_name_pdfvalue},"hidden":"{$item_hide_integrated_search_field5}"},
+				
+				
+			{"text":{$usr_lname_pdfvalue},"hidden":"{$item_hide_integrated_search_field6}"},
+				
+				
+			{"text":{$usr_nombresfull_pdfvalue},"hidden":"{$item_hide_integrated_search_field7}"},
+				
+				
+			{"text":{$usr_personalid_pdfvalue},"hidden":"{$item_hide_integrated_search_field8}"},
+				
+				
+			{"text":{$usr_inicial_pdfvalue},"hidden":"{$item_hide_integrated_search_field9}"},
+				
+				
+			{"text":{$usr_sessini_pdfvalue},"hidden":"{$item_hide_integrated_search_field10}"},
+				
+				
+			{"text":{$usr_image_pdfvalue},"hidden":"{$item_hide_integrated_search_field11}"},
+				
+				
+			{"text":{$usr_status_nomina_pdfvalue},"hidden":"{$item_hide_integrated_search_field12}"},
+				
+				
+			{"text":{$usr_status_pdfvalue},"hidden":"{$item_hide_integrated_search_field13}"},
+				
+				
+			{"text":{$usr_rdnkey_pdfvalue},"hidden":"{$item_hide_integrated_search_field14}"},
+				
+				
+			{"text":{$usr_type_vinc_pdfvalue},"hidden":"{$item_hide_integrated_search_field15}"},
+				
+				
+			{"text":{$usr_type_vinculacion_pdfvalue},"hidden":"{$item_hide_integrated_search_field16}"},
+				
+				
+			{"text":{$usr_status_sol_pdfvalue},"hidden":"{$item_hide_integrated_search_field17}"},
+				
+				
+			{"text":{$usr_dependencia_pdfvalue},"hidden":"{$item_hide_integrated_search_field18}"},
+				
+				
+			{"text":{$user_dep_pdfvalue},"hidden":"{$item_hide_integrated_search_field19}"},
+				
+				
+			{"text":{$usr_entidad_pdfvalue},"hidden":"{$item_hide_integrated_search_field20}"},
+				
+				
+			{"text":{$usr_not_pdfvalue},"hidden":"{$item_hide_integrated_search_field21}"},
+				
+				
+			{"text":{$usr_not_msj_pdfvalue},"hidden":"{$item_hide_integrated_search_field22}"},
+				
+				
+			{"text":{$usr_jefe_pdfvalue},"hidden":"{$item_hide_integrated_search_field23}"},
+				
+				
+			{"text":{$usr_minequipo_lider_pdfvalue},"hidden":"{$item_hide_integrated_search_field24}"},
+				
+				
+			{"text":{$usr_minequipo_grupo_pdfvalue},"hidden":"{$item_hide_integrated_search_field25}"},
+				
+				
+			{"text":{$global_rol_me_pdfvalue},"hidden":"{$item_hide_integrated_search_field26}"},
+				
+				
+			{"text":{$global_rol_gh_pdfvalue},"hidden":"{$item_hide_integrated_search_field27}"},
+				
+				
+			{"text":{$global_rol_almacen_pdfvalue},"hidden":"{$item_hide_integrated_search_field28}"},
+				
+				
+			{"text":{$global_rol_ci_pdfvalue},"hidden":"{$item_hide_integrated_search_field29}"},
+				
+				
+			{"text":{$global_rol_contratos_pdfvalue},"hidden":"{$item_hide_integrated_search_field30}"},
+				
+				
+			{"text":{$global_rol_hojar_pdfvalue},"hidden":"{$item_hide_integrated_search_field31}"},
+				
+				
+			{"text":{$global_rol_inmuebles_pdfvalue},"hidden":"{$item_hide_integrated_search_field32}"},
+				
+				
+			{"text":{$global_rol_siis_pdfvalue},"hidden":"{$item_hide_integrated_search_field33}"},
+				
+				
+			{"text":{$global_rol_cpanel_pdfvalue},"hidden":"{$item_hide_integrated_search_field34}"},
+				
+				
+			{"text":{$global_rol_dashboard_pdfvalue},"hidden":"{$item_hide_integrated_search_field35}"},
+				
+				
+			{"text":{$global_rol_zf_pdfvalue},"hidden":"{$item_hide_integrated_search_field36}"},
+				
+				
+			{"text":{$global_rol_sipi_pdfvalue},"hidden":"{$item_hide_integrated_search_field37}"},
+				
+				
+			{"text":{$global_rol_cej_pdfvalue},"hidden":"{$item_hide_integrated_search_field38}"},
+				
+				
+			{"text":{$global_rol_jc3_pdfvalue},"hidden":"{$item_hide_integrated_search_field39}"},
+				
+				
+			{"text":{$global_rol_th_pdfvalue},"hidden":"{$item_hide_integrated_search_field40}"},
+				
+				
+			{"text":{$global_rol_sid_pdfvalue},"hidden":"{$item_hide_integrated_search_field41}"},
+				
+				
+			{"text":{$global_rol_pdfvalue},"hidden":"{$item_hide_integrated_search_field42}"},
+				
+				
+			{"text":{$global_rol_cont_pdfvalue},"hidden":"{$item_hide_integrated_search_field43}"},
+				
+				
+			{"text":{$globla_rol_ct_pdfvalue},"hidden":"{$item_hide_integrated_search_field44}"},
+				
+				
+			{"text":{$global_rol_procjur_pdfvalue},"hidden":"{$item_hide_integrated_search_field45}"},
+				
+				
+			{"text":{$global_rol_comacc_pdfvalue},"hidden":"{$item_hide_integrated_search_field46}"},
+				
+				
+			{"text":{$global_rol_gestion_pdfvalue},"hidden":"{$item_hide_integrated_search_field47}"},
+				
+				
+			{"text":{$global_rol_ciudadano_pdfvalue},"hidden":"{$item_hide_integrated_search_field48}"},
+				
+				
+			{"text":{$global_rol_ciudadano_dep_pdfvalue},"hidden":"{$item_hide_integrated_search_field49}"},
+				
+				
+			{"text":{$sys_user_pdfvalue},"hidden":"{$item_hide_integrated_search_field50}"},
+				
+				
+			{"text":{$sys_date_pdfvalue},"hidden":"{$item_hide_integrated_search_field51}"},
+				
+				
+			{"text":{$sys_time_pdfvalue},"hidden":"{$item_hide_integrated_search_field52}"},
+				
+				
+			{"text":{$sys_ntries_usr_pdfvalue},"hidden":"{$item_hide_integrated_search_field53}"},
+				
+				
+			{"text":{$sys_registrationdate_usr_pdfvalue},"hidden":"{$item_hide_integrated_search_field54}"},
+				
+				
+			{"text":{$sys_expiration_usr_pdfvalue},"hidden":"{$item_hide_integrated_search_field55}"},
+				
+				
+			{"text":{$sys_disabledate_usr_pdfvalue},"hidden":"{$item_hide_integrated_search_field56}"},
+				
+				
+			{"text":{$sys_upd_fecha_pdfvalue},"hidden":"{$item_hide_integrated_search_field57}"},
+				
+				
+			{"text":{$sys_upd_user_pdfvalue},"hidden":"{$item_hide_integrated_search_field58}"},
+				
+				
+			{"text":{$sys_upd_time_pdfvalue},"hidden":"{$item_hide_integrated_search_field59}"},
+				
+				
+			{"text":{$sys_update_info_pdfvalue},"hidden":"{$item_hide_integrated_search_field60}"},
+				
+				
+			{"text":{$sys_update_family_info_pdfvalue},"hidden":"{$item_hide_integrated_search_field61}"},
+				
+				
+			{"text":{$usr_update_almacen_pdfvalue},"hidden":"{$item_hide_integrated_search_field62}"},
+				
+				
+			{"text":{$sys_anio_pdfvalue},"hidden":"{$item_hide_integrated_search_field63}"},
+				
+				
+			{"text":{$ctrl_pdfvalue},"hidden":"{$item_hide_integrated_search_field64}"},
+				
+				
+			{"text":{$usr_directivo_pdfvalue},"hidden":"{$item_hide_integrated_search_field65}"},
+				
+				
+			{"text":{$usr_dep_pdfvalue},"hidden":"{$item_hide_integrated_search_field66}"},
+				
+				
+			{"text":{$usr_dep_sup_pdfvalue},"hidden":"{$item_hide_integrated_search_field67}"},
+				
+				
+			{"text":{$usr_cargo_pdfvalue},"hidden":"{$item_hide_integrated_search_field68}"},
+				
+				
+			{"text":{$usr_regpago_pdfvalue},"hidden":"{$item_hide_integrated_search_field69}"},
+				
+				
+			{"text":{$usr_extension_pdfvalue},"hidden":"{$item_hide_integrated_search_field70}"},
+				
+				
+			{"text":{$usr_piso_pdfvalue},"hidden":"{$item_hide_integrated_search_field71}"},
+				
+				
+			{"text":{$usr_datebirth_pdfvalue},"hidden":"{$item_hide_integrated_search_field72}"},
+				
+				
+			{"text":{$ctrl_pedidoalmacen_pdfvalue},"hidden":"{$item_hide_integrated_search_field73}"},
+				
+				
+			{"text":{$ctrl_contacto_pdfvalue},"hidden":"{$item_hide_integrated_search_field74}"},
+				
+				
+			{"text":{$usr_emergencia_pdfvalue},"hidden":"{$item_hide_integrated_search_field75}"},
+				
+				
+			{"text":{$upd_date_pdfvalue},"hidden":"{$item_hide_integrated_search_field76}"},
+				
+				
+			{"text":{$phone_pdfvalue},"hidden":"{$item_hide_integrated_search_field77}"},
+				
+				
+			{"text":{$phone1_pdfvalue},"hidden":"{$item_hide_integrated_search_field78}"},
+				
+				
+			{"text":{$active_pdfvalue},"hidden":"{$item_hide_integrated_search_field79}"},
+				
+				
+			{"text":{$groupid_pdfvalue},"hidden":"{$item_hide_integrated_search_field80}"},
+				
+				
+			{"text":{$habilita_almacen_pdfvalue},"hidden":"{$item_hide_integrated_search_field81}"},
+				
+				
+			{"text":{$estado_vinculacion_mincit_pdfvalue},"hidden":"{$item_hide_integrated_search_field82}"},
+				
+				
+			{"text":{$usr_firma_pdfvalue},"hidden":"{$item_hide_integrated_search_field83}"},
+				
+				
+			{"text":{$usr_firma_b_pdfvalue},"hidden":"{$item_hide_integrated_search_field84}"},
+				
+				
+			{"text":{$usr_hojaruta_pdfvalue},"hidden":"{$item_hide_integrated_search_field85}"},
+				
+				
+			{"text":{$reset_token_pdfvalue},"hidden":"{$item_hide_integrated_search_field86}"},
+				
+				
+			{"text":{$reset_date_pdfvalue},"hidden":"{$item_hide_integrated_search_field87}"},
+				
+				
+			{"text":{$usr_edl_pdfvalue},"hidden":"{$item_hide_integrated_search_field88}"},
+				
+				
+			{"text":{$ext_security_id_pdfvalue},"hidden":"{$item_hide_integrated_search_field89}"},
+				
+				
+			{"text":{$covid_sn_pdfvalue},"hidden":"{$item_hide_integrated_search_field90}"},
+				
+				
+			{"text":{$covid_fecha_pdfvalue},"hidden":"{$item_hide_integrated_search_field91}"},
+				
+				
+			{"text":{$vacuna_sn_pdfvalue},"hidden":"{$item_hide_integrated_search_field92}"},
+				
+				
+			{"text":{$vacuna_nombre_pdfvalue},"hidden":"{$item_hide_integrated_search_field93}"},
+				
+				
+			{"text":{$vacuna_a_fecha_pdfvalue},"hidden":"{$item_hide_integrated_search_field94}"},
+				
+				
+			{"text":{$vacuna_b_fechaprog_pdfvalue},"hidden":"{$item_hide_integrated_search_field95}"},
+				
+				
+			{"text":{$vacuna_b_fecha_pdfvalue},"hidden":"{$item_hide_integrated_search_field96}"},
+				
+				
+			{"text":{$vacuna_c_fecha_pdfvalue},"hidden":"{$item_hide_integrated_search_field97}"},
+				
+				
+			{"text":{$vacuna_consentimiento_sn_pdfvalue},"hidden":"{$item_hide_integrated_search_field98}"},
+				
+				
+			{"text":{$vacuna_obs_pdfvalue},"hidden":"{$item_hide_integrated_search_field99}"},
+				
+				
+			{"text":{$vacuna_dosis_pdfvalue},"hidden":"{$item_hide_integrated_search_field100}"},
+				
+				
+			{"text":{$vacuna_interes_pdfvalue},"hidden":"{$item_hide_integrated_search_field101}"},
+				
+				
+			{"text":{$vacuna_etapa_pdfvalue},"hidden":"{$item_hide_integrated_search_field102}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+{END cellblock_grid_c3}
+											],
+				{END row_grid_0}
+		
+		]
+	}
+}
+,
+		
+								
+{
+	table: {
+	
+				
+		location: 'below-grid',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":""},
+				
+				
+			{"text":""},
+				
+				
+			{"text":"","hidden":"{$item_hide_search_back_list}"},
+				
+				
+			{"text":"","hidden":"{$item_hide_search_cancel}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+			]
+}
+  

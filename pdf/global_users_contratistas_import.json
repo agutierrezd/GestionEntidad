@@ -1,0 +1,174 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel global_users_contratistas import}","hidden":"{$item_hide_import_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":{$Username_pdfvalue},"hidden":"{$item_hide_import_field2}"},
+				
+				
+			{"text":{$usr_email_pdfvalue},"hidden":"{$item_hide_import_field4}"},
+				
+				
+			{"text":{$usr_name_pdfvalue},"hidden":"{$item_hide_import_field5}"},
+				
+				
+			{"text":{$usr_lname_pdfvalue},"hidden":"{$item_hide_import_field6}"},
+				
+				
+			{"text":{$usr_personalid_pdfvalue},"hidden":"{$item_hide_import_field8}"},
+				
+				
+			{"text":{$global_rol_almacen_pdfvalue},"hidden":"{$item_hide_import_field28}"},
+				
+				
+			{"text":{$global_rol_contratos_pdfvalue},"hidden":"{$item_hide_import_field30}"},
+				
+				
+			{"text":{$sys_user_pdfvalue},"hidden":"{$item_hide_import_field50}"},
+				
+				
+			{"text":{$sys_date_pdfvalue},"hidden":"{$item_hide_import_field51}"},
+				
+				
+			{"text":{$sys_time_pdfvalue},"hidden":"{$item_hide_import_field52}"},
+				
+				
+			{"text":{$usr_dep_pdfvalue},"hidden":"{$item_hide_import_field65}"},
+				
+				
+			{"text":{$usr_cargo_pdfvalue},"hidden":"{$item_hide_import_field66}"},
+				
+				
+			{"text":{$usr_extension_pdfvalue},"hidden":"{$item_hide_import_field68}"},
+				
+				
+			{"text":{$usr_datebirth_pdfvalue},"hidden":"{$item_hide_import_field70}"},
+				
+				
+			{"text":{$active_pdfvalue},"hidden":"{$item_hide_import_field75}"},
+				
+				
+			{"text":{$groupid_pdfvalue},"hidden":"{$item_hide_import_field76}"},
+				
+				
+			{"text":{$id_fk_pdfvalue},"hidden":"{$item_hide_import_field}"},
+				
+				
+			{"text":{$phone_pdfvalue},"hidden":"{$item_hide_import_field1}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+					]
+}
+  

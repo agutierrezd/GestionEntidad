@@ -1,0 +1,159 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel funcionario export}","hidden":"{$item_hide_export_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":{$id_pdfvalue},"hidden":"{$item_hide_export_field}"},
+				
+				
+			{"text":{$idEvaluador_pdfvalue},"hidden":"{$item_hide_export_field1}"},
+				
+				
+			{"text":{$cedula_pdfvalue},"hidden":"{$item_hide_export_field3}"},
+				
+				
+			{"text":{$lugarExpedicion_pdfvalue},"hidden":"{$item_hide_export_field4}"},
+				
+				
+			{"text":{$fechaIngreso_pdfvalue},"hidden":"{$item_hide_export_field6}"},
+				
+				
+			{"text":{$nombre_pdfvalue},"hidden":"{$item_hide_export_field7}"},
+				
+				
+			{"text":{$ubicacionFisica_pdfvalue},"hidden":"{$item_hide_export_field8}"},
+				
+				
+			{"text":{$idCargo_pdfvalue},"hidden":"{$item_hide_export_field9}"},
+				
+				
+			{"text":{$idDependencia_pdfvalue},"hidden":"{$item_hide_export_field10}"},
+				
+				
+			{"text":{$idNombramiento_pdfvalue},"hidden":"{$item_hide_export_field12}"},
+				
+				
+			{"text":{$estado_funcionario_pdfvalue},"hidden":"{$item_hide_export_field14}"},
+				
+				
+			{"text":{$apellidos_pdfvalue},"hidden":"{$item_hide_export_field2}"},
+				
+				
+			{"text":{$sueldo_pdfvalue},"hidden":"{$item_hide_export_field11}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+					]
+}
+  

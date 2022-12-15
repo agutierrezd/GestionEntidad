@@ -1,0 +1,6 @@
+Importar en ep_compromisos
+21/08/2021 3:25:04 a. m.
+
+1982 registros de 1982 procesados correctamente.
+1982 registros añadidos.
+0 registros actualizados.

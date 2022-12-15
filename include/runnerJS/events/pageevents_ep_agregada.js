@@ -1,0 +1,2 @@
+
+Runner.pages.PageSettings.addPageEvent('ep_agregada',Runner.pages.constants.PAGE_IMPORT,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){swal("Importante!","Los datos actuales serán actualizados con la fecha en la que se adjunta la información.","info");});

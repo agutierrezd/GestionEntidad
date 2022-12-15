@@ -1,0 +1,225 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel ep_compromisos export}","hidden":"{$item_hide_export_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":{$Numero_Documento_pdfvalue},"hidden":"{$item_hide_export_field1}"},
+				
+				
+			{"text":{$Fecha_de_Registro_pdfvalue},"hidden":"{$item_hide_export_field2}"},
+				
+				
+			{"text":{$Fecha_de_Creacion_pdfvalue},"hidden":"{$item_hide_export_field3}"},
+				
+				
+			{"text":{$Estado_pdfvalue},"hidden":"{$item_hide_export_field4}"},
+				
+				
+			{"text":{$Dependencia_pdfvalue},"hidden":"{$item_hide_export_field5}"},
+				
+				
+			{"text":{$Dependencia_Descripcion_pdfvalue},"hidden":"{$item_hide_export_field6}"},
+				
+				
+			{"text":{$Rubro_pdfvalue},"hidden":"{$item_hide_export_field7}"},
+				
+				
+			{"text":{$Descripcion_pdfvalue},"hidden":"{$item_hide_export_field8}"},
+				
+				
+			{"text":{$Fuente_pdfvalue},"hidden":"{$item_hide_export_field9}"},
+				
+				
+			{"text":{$Recurso_pdfvalue},"hidden":"{$item_hide_export_field10}"},
+				
+				
+			{"text":{$Situacion_pdfvalue},"hidden":"{$item_hide_export_field11}"},
+				
+				
+			{"text":{$Valor_Inicial_pdfvalue},"hidden":"{$item_hide_export_field12}"},
+				
+				
+			{"text":{$Valor_Operaciones_pdfvalue},"hidden":"{$item_hide_export_field13}"},
+				
+				
+			{"text":{$Valor_Actual_pdfvalue},"hidden":"{$item_hide_export_field14}"},
+				
+				
+			{"text":{$Saldo_por_Utilizar_pdfvalue},"hidden":"{$item_hide_export_field15}"},
+				
+				
+			{"text":{$Tipo_Identificacion_pdfvalue},"hidden":"{$item_hide_export_field16}"},
+				
+				
+			{"text":{$Identificacion_pdfvalue},"hidden":"{$item_hide_export_field17}"},
+				
+				
+			{"text":{$Nombre_Razon_Social_pdfvalue},"hidden":"{$item_hide_export_field18}"},
+				
+				
+			{"text":{$Medio_de_Pago_pdfvalue},"hidden":"{$item_hide_export_field19}"},
+				
+				
+			{"text":{$Tipo_Cuenta_pdfvalue},"hidden":"{$item_hide_export_field20}"},
+				
+				
+			{"text":{$Numero_Cuenta_pdfvalue},"hidden":"{$item_hide_export_field21}"},
+				
+				
+			{"text":{$Estado_Cuenta_pdfvalue},"hidden":"{$item_hide_export_field22}"},
+				
+				
+			{"text":{$Entidad_Nit_pdfvalue},"hidden":"{$item_hide_export_field23}"},
+				
+				
+			{"text":{$Entidad_Descripcion_pdfvalue},"hidden":"{$item_hide_export_field24}"},
+				
+				
+			{"text":{$Solicitud_CDP_pdfvalue},"hidden":"{$item_hide_export_field25}"},
+				
+				
+			{"text":{$CDP_pdfvalue},"hidden":"{$item_hide_export_field26}"},
+				
+				
+			{"text":{$Compromisos_pdfvalue},"hidden":"{$item_hide_export_field27}"},
+				
+				
+			{"text":{$Cuentas_por_Pagar_pdfvalue},"hidden":"{$item_hide_export_field28}"},
+				
+				
+			{"text":{$Obligaciones_pdfvalue},"hidden":"{$item_hide_export_field29}"},
+				
+				
+			{"text":{$Ordenes_de_Pago_pdfvalue},"hidden":"{$item_hide_export_field30}"},
+				
+				
+			{"text":{$Reintegros_pdfvalue},"hidden":"{$item_hide_export_field31}"},
+				
+				
+			{"text":{$Fecha_Documento_Soporte_pdfvalue},"hidden":"{$item_hide_export_field32}"},
+				
+				
+			{"text":{$Tipo_Documento_Soporte_pdfvalue},"hidden":"{$item_hide_export_field33}"},
+				
+				
+			{"text":{$Numero_Documento_Soporte_pdfvalue},"hidden":"{$item_hide_export_field34}"},
+				
+				
+			{"text":{$Observaciones_pdfvalue},"hidden":"{$item_hide_export_field35}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+					]
+}
+  

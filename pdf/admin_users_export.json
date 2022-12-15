@@ -1,0 +1,429 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel admin_users export}","hidden":"{$item_hide_export_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":{$idusrglobal_pdfvalue},"hidden":"{$item_hide_export_field}"},
+				
+				
+			{"text":{$id_fk_pdfvalue},"hidden":"{$item_hide_export_field1}"},
+				
+				
+			{"text":{$Username_pdfvalue},"hidden":"{$item_hide_export_field2}"},
+				
+				
+			{"text":{$Password_pdfvalue},"hidden":"{$item_hide_export_field3}"},
+				
+				
+			{"text":{$usr_email_pdfvalue},"hidden":"{$item_hide_export_field4}"},
+				
+				
+			{"text":{$usr_name_pdfvalue},"hidden":"{$item_hide_export_field5}"},
+				
+				
+			{"text":{$usr_lname_pdfvalue},"hidden":"{$item_hide_export_field6}"},
+				
+				
+			{"text":{$usr_nombresfull_pdfvalue},"hidden":"{$item_hide_export_field7}"},
+				
+				
+			{"text":{$usr_personalid_pdfvalue},"hidden":"{$item_hide_export_field8}"},
+				
+				
+			{"text":{$usr_inicial_pdfvalue},"hidden":"{$item_hide_export_field9}"},
+				
+				
+			{"text":{$usr_sessini_pdfvalue},"hidden":"{$item_hide_export_field10}"},
+				
+				
+			{"text":{$usr_image_pdfvalue},"hidden":"{$item_hide_export_field11}"},
+				
+				
+			{"text":{$usr_status_nomina_pdfvalue},"hidden":"{$item_hide_export_field12}"},
+				
+				
+			{"text":{$usr_status_pdfvalue},"hidden":"{$item_hide_export_field13}"},
+				
+				
+			{"text":{$usr_rdnkey_pdfvalue},"hidden":"{$item_hide_export_field14}"},
+				
+				
+			{"text":{$usr_type_vinc_pdfvalue},"hidden":"{$item_hide_export_field15}"},
+				
+				
+			{"text":{$usr_type_vinculacion_pdfvalue},"hidden":"{$item_hide_export_field16}"},
+				
+				
+			{"text":{$usr_status_sol_pdfvalue},"hidden":"{$item_hide_export_field17}"},
+				
+				
+			{"text":{$usr_dependencia_pdfvalue},"hidden":"{$item_hide_export_field18}"},
+				
+				
+			{"text":{$user_dep_pdfvalue},"hidden":"{$item_hide_export_field19}"},
+				
+				
+			{"text":{$usr_entidad_pdfvalue},"hidden":"{$item_hide_export_field20}"},
+				
+				
+			{"text":{$usr_not_pdfvalue},"hidden":"{$item_hide_export_field21}"},
+				
+				
+			{"text":{$usr_not_msj_pdfvalue},"hidden":"{$item_hide_export_field22}"},
+				
+				
+			{"text":{$usr_jefe_pdfvalue},"hidden":"{$item_hide_export_field23}"},
+				
+				
+			{"text":{$usr_minequipo_lider_pdfvalue},"hidden":"{$item_hide_export_field24}"},
+				
+				
+			{"text":{$usr_minequipo_grupo_pdfvalue},"hidden":"{$item_hide_export_field25}"},
+				
+				
+			{"text":{$global_rol_me_pdfvalue},"hidden":"{$item_hide_export_field26}"},
+				
+				
+			{"text":{$global_rol_gh_pdfvalue},"hidden":"{$item_hide_export_field27}"},
+				
+				
+			{"text":{$global_rol_almacen_pdfvalue},"hidden":"{$item_hide_export_field28}"},
+				
+				
+			{"text":{$global_rol_ci_pdfvalue},"hidden":"{$item_hide_export_field29}"},
+				
+				
+			{"text":{$global_rol_contratos_pdfvalue},"hidden":"{$item_hide_export_field30}"},
+				
+				
+			{"text":{$global_rol_hojar_pdfvalue},"hidden":"{$item_hide_export_field31}"},
+				
+				
+			{"text":{$global_rol_inmuebles_pdfvalue},"hidden":"{$item_hide_export_field32}"},
+				
+				
+			{"text":{$global_rol_siis_pdfvalue},"hidden":"{$item_hide_export_field33}"},
+				
+				
+			{"text":{$global_rol_cpanel_pdfvalue},"hidden":"{$item_hide_export_field34}"},
+				
+				
+			{"text":{$global_rol_dashboard_pdfvalue},"hidden":"{$item_hide_export_field35}"},
+				
+				
+			{"text":{$global_rol_zf_pdfvalue},"hidden":"{$item_hide_export_field36}"},
+				
+				
+			{"text":{$global_rol_sipi_pdfvalue},"hidden":"{$item_hide_export_field37}"},
+				
+				
+			{"text":{$global_rol_cej_pdfvalue},"hidden":"{$item_hide_export_field38}"},
+				
+				
+			{"text":{$global_rol_jc3_pdfvalue},"hidden":"{$item_hide_export_field39}"},
+				
+				
+			{"text":{$global_rol_th_pdfvalue},"hidden":"{$item_hide_export_field40}"},
+				
+				
+			{"text":{$global_rol_sid_pdfvalue},"hidden":"{$item_hide_export_field41}"},
+				
+				
+			{"text":{$global_rol_pdfvalue},"hidden":"{$item_hide_export_field42}"},
+				
+				
+			{"text":{$global_rol_cont_pdfvalue},"hidden":"{$item_hide_export_field43}"},
+				
+				
+			{"text":{$globla_rol_ct_pdfvalue},"hidden":"{$item_hide_export_field44}"},
+				
+				
+			{"text":{$global_rol_procjur_pdfvalue},"hidden":"{$item_hide_export_field45}"},
+				
+				
+			{"text":{$global_rol_comacc_pdfvalue},"hidden":"{$item_hide_export_field46}"},
+				
+				
+			{"text":{$global_rol_gestion_pdfvalue},"hidden":"{$item_hide_export_field47}"},
+				
+				
+			{"text":{$global_rol_ciudadano_pdfvalue},"hidden":"{$item_hide_export_field48}"},
+				
+				
+			{"text":{$global_rol_ciudadano_dep_pdfvalue},"hidden":"{$item_hide_export_field49}"},
+				
+				
+			{"text":{$sys_user_pdfvalue},"hidden":"{$item_hide_export_field50}"},
+				
+				
+			{"text":{$sys_date_pdfvalue},"hidden":"{$item_hide_export_field51}"},
+				
+				
+			{"text":{$sys_time_pdfvalue},"hidden":"{$item_hide_export_field52}"},
+				
+				
+			{"text":{$sys_ntries_usr_pdfvalue},"hidden":"{$item_hide_export_field53}"},
+				
+				
+			{"text":{$sys_registrationdate_usr_pdfvalue},"hidden":"{$item_hide_export_field54}"},
+				
+				
+			{"text":{$sys_expiration_usr_pdfvalue},"hidden":"{$item_hide_export_field55}"},
+				
+				
+			{"text":{$sys_disabledate_usr_pdfvalue},"hidden":"{$item_hide_export_field56}"},
+				
+				
+			{"text":{$sys_upd_fecha_pdfvalue},"hidden":"{$item_hide_export_field57}"},
+				
+				
+			{"text":{$sys_upd_user_pdfvalue},"hidden":"{$item_hide_export_field58}"},
+				
+				
+			{"text":{$sys_upd_time_pdfvalue},"hidden":"{$item_hide_export_field59}"},
+				
+				
+			{"text":{$sys_update_info_pdfvalue},"hidden":"{$item_hide_export_field60}"},
+				
+				
+			{"text":{$sys_update_family_info_pdfvalue},"hidden":"{$item_hide_export_field61}"},
+				
+				
+			{"text":{$usr_update_almacen_pdfvalue},"hidden":"{$item_hide_export_field62}"},
+				
+				
+			{"text":{$sys_anio_pdfvalue},"hidden":"{$item_hide_export_field63}"},
+				
+				
+			{"text":{$ctrl_pdfvalue},"hidden":"{$item_hide_export_field64}"},
+				
+				
+			{"text":{$usr_directivo_pdfvalue},"hidden":"{$item_hide_export_field65}"},
+				
+				
+			{"text":{$usr_dep_pdfvalue},"hidden":"{$item_hide_export_field66}"},
+				
+				
+			{"text":{$usr_dep_sup_pdfvalue},"hidden":"{$item_hide_export_field67}"},
+				
+				
+			{"text":{$usr_cargo_pdfvalue},"hidden":"{$item_hide_export_field68}"},
+				
+				
+			{"text":{$usr_regpago_pdfvalue},"hidden":"{$item_hide_export_field69}"},
+				
+				
+			{"text":{$usr_extension_pdfvalue},"hidden":"{$item_hide_export_field70}"},
+				
+				
+			{"text":{$usr_piso_pdfvalue},"hidden":"{$item_hide_export_field71}"},
+				
+				
+			{"text":{$usr_datebirth_pdfvalue},"hidden":"{$item_hide_export_field72}"},
+				
+				
+			{"text":{$ctrl_pedidoalmacen_pdfvalue},"hidden":"{$item_hide_export_field73}"},
+				
+				
+			{"text":{$ctrl_contacto_pdfvalue},"hidden":"{$item_hide_export_field74}"},
+				
+				
+			{"text":{$usr_emergencia_pdfvalue},"hidden":"{$item_hide_export_field75}"},
+				
+				
+			{"text":{$upd_date_pdfvalue},"hidden":"{$item_hide_export_field76}"},
+				
+				
+			{"text":{$phone_pdfvalue},"hidden":"{$item_hide_export_field77}"},
+				
+				
+			{"text":{$phone1_pdfvalue},"hidden":"{$item_hide_export_field78}"},
+				
+				
+			{"text":{$active_pdfvalue},"hidden":"{$item_hide_export_field79}"},
+				
+				
+			{"text":{$groupid_pdfvalue},"hidden":"{$item_hide_export_field80}"},
+				
+				
+			{"text":{$habilita_almacen_pdfvalue},"hidden":"{$item_hide_export_field81}"},
+				
+				
+			{"text":{$estado_vinculacion_mincit_pdfvalue},"hidden":"{$item_hide_export_field82}"},
+				
+				
+			{"text":{$usr_firma_pdfvalue},"hidden":"{$item_hide_export_field83}"},
+				
+				
+			{"text":{$usr_firma_b_pdfvalue},"hidden":"{$item_hide_export_field84}"},
+				
+				
+			{"text":{$usr_hojaruta_pdfvalue},"hidden":"{$item_hide_export_field85}"},
+				
+				
+			{"text":{$reset_token_pdfvalue},"hidden":"{$item_hide_export_field86}"},
+				
+				
+			{"text":{$reset_date_pdfvalue},"hidden":"{$item_hide_export_field87}"},
+				
+				
+			{"text":{$usr_edl_pdfvalue},"hidden":"{$item_hide_export_field88}"},
+				
+				
+			{"text":{$ext_security_id_pdfvalue},"hidden":"{$item_hide_export_field89}"},
+				
+				
+			{"text":{$covid_sn_pdfvalue},"hidden":"{$item_hide_export_field90}"},
+				
+				
+			{"text":{$covid_fecha_pdfvalue},"hidden":"{$item_hide_export_field91}"},
+				
+				
+			{"text":{$vacuna_sn_pdfvalue},"hidden":"{$item_hide_export_field92}"},
+				
+				
+			{"text":{$vacuna_nombre_pdfvalue},"hidden":"{$item_hide_export_field93}"},
+				
+				
+			{"text":{$vacuna_a_fecha_pdfvalue},"hidden":"{$item_hide_export_field94}"},
+				
+				
+			{"text":{$vacuna_b_fechaprog_pdfvalue},"hidden":"{$item_hide_export_field95}"},
+				
+				
+			{"text":{$vacuna_b_fecha_pdfvalue},"hidden":"{$item_hide_export_field96}"},
+				
+				
+			{"text":{$vacuna_c_fecha_pdfvalue},"hidden":"{$item_hide_export_field97}"},
+				
+				
+			{"text":{$vacuna_consentimiento_sn_pdfvalue},"hidden":"{$item_hide_export_field98}"},
+				
+				
+			{"text":{$vacuna_obs_pdfvalue},"hidden":"{$item_hide_export_field99}"},
+				
+				
+			{"text":{$vacuna_dosis_pdfvalue},"hidden":"{$item_hide_export_field100}"},
+				
+				
+			{"text":{$vacuna_interes_pdfvalue},"hidden":"{$item_hide_export_field101}"},
+				
+				
+			{"text":{$vacuna_etapa_pdfvalue},"hidden":"{$item_hide_export_field102}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+					]
+}
+  

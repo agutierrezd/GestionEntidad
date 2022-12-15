@@ -1,0 +1,414 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+		
+	</head>
+
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel 008_reserva search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN Numero_Reserva_RP_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Numero_Reserva_RP}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Numero_Reserva_RP{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="Numero_Reserva_RP" data-fieldname="Numero_Reserva_RP" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Numero_Reserva_RP}">
+		{$label 008_reserva Numero_Reserva_RP }	</label>
+	<div class="r-search-option">
+		{$searchtype_Numero_Reserva_RP}
+	</div>
+	<div class="r-search-field">
+		{$Numero_Reserva_RP_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Numero_Reserva_RP_editcontrol1}
+	</div>
+	
+</div>
+
+{END Numero_Reserva_RP_fieldblock}
+											
+{BEGIN Dependencia_Descripcion_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Dependencia_Descripcion}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Dependencia_Descripcion{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="Dependencia_Descripcion" data-fieldname="Dependencia_Descripcion" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Dependencia_Descripcion}">
+		{$label 008_reserva Dependencia_Descripcion }	</label>
+	<div class="r-search-option">
+		{$searchtype_Dependencia_Descripcion}
+	</div>
+	<div class="r-search-field">
+		{$Dependencia_Descripcion_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Dependencia_Descripcion_editcontrol1}
+	</div>
+	
+</div>
+
+{END Dependencia_Descripcion_fieldblock}
+											
+{BEGIN Necesidad_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Necesidad}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Necesidad{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="Necesidad" data-fieldname="Necesidad" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Necesidad}">
+		{$label 008_reserva Necesidad }	</label>
+	<div class="r-search-option">
+		{$searchtype_Necesidad}
+	</div>
+	<div class="r-search-field">
+		{$Necesidad_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Necesidad_editcontrol1}
+	</div>
+	
+</div>
+
+{END Necesidad_fieldblock}
+											
+{BEGIN Documento_Soporte_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Documento_Soporte}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Documento_Soporte{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="Documento_Soporte" data-fieldname="Documento_Soporte" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Documento_Soporte}">
+		{$label 008_reserva Documento_Soporte }	</label>
+	<div class="r-search-option">
+		{$searchtype_Documento_Soporte}
+	</div>
+	<div class="r-search-field">
+		{$Documento_Soporte_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Documento_Soporte_editcontrol1}
+	</div>
+	
+</div>
+
+{END Documento_Soporte_fieldblock}
+											
+{BEGIN Numero_Documento_Soporte_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Numero_Documento_Soporte}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Numero_Documento_Soporte{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="Numero_Documento_Soporte" data-fieldname="Numero_Documento_Soporte" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Numero_Documento_Soporte}">
+		{$label 008_reserva Numero_Documento_Soporte }	</label>
+	<div class="r-search-option">
+		{$searchtype_Numero_Documento_Soporte}
+	</div>
+	<div class="r-search-field">
+		{$Numero_Documento_Soporte_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Numero_Documento_Soporte_editcontrol1}
+	</div>
+	
+</div>
+
+{END Numero_Documento_Soporte_fieldblock}
+											
+{BEGIN No_Contrato_y_Contratista_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_No_Contrato_y_Contratista}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="No_Contrato_y_Contratista{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="No_Contrato_y_Contratista" data-fieldname="No_Contrato_y_Contratista" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_No_Contrato_y_Contratista}">
+		{$label 008_reserva No_Contrato_y_Contratista }	</label>
+	<div class="r-search-option">
+		{$searchtype_No_Contrato_y_Contratista}
+	</div>
+	<div class="r-search-field">
+		{$No_Contrato_y_Contratista_editcontrol}	</div>
+	<div class="r-search-field">
+		{$No_Contrato_y_Contratista_editcontrol1}
+	</div>
+	
+</div>
+
+{END No_Contrato_y_Contratista_fieldblock}
+											
+{BEGIN Proyecto_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Proyecto}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Proyecto{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="Proyecto" data-fieldname="Proyecto" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Proyecto}">
+		{$label 008_reserva Proyecto }	</label>
+	<div class="r-search-option">
+		{$searchtype_Proyecto}
+	</div>
+	<div class="r-search-field">
+		{$Proyecto_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Proyecto_editcontrol1}
+	</div>
+	
+</div>
+
+{END Proyecto_fieldblock}
+											
+{BEGIN Rubro_Presupuestal_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Rubro_Presupuestal}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Rubro_Presupuestal{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="Rubro_Presupuestal" data-fieldname="Rubro_Presupuestal" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Rubro_Presupuestal}">
+		{$label 008_reserva Rubro_Presupuestal }	</label>
+	<div class="r-search-option">
+		{$searchtype_Rubro_Presupuestal}
+	</div>
+	<div class="r-search-field">
+		{$Rubro_Presupuestal_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Rubro_Presupuestal_editcontrol1}
+	</div>
+	
+</div>
+
+{END Rubro_Presupuestal_fieldblock}
+											
+{BEGIN Valor_Reserva_Presupuestal_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Valor_Reserva_Presupuestal}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Valor_Reserva_Presupuestal{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="Valor_Reserva_Presupuestal" data-fieldname="Valor_Reserva_Presupuestal" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Valor_Reserva_Presupuestal}">
+		{$label 008_reserva Valor_Reserva_Presupuestal }	</label>
+	<div class="r-search-option">
+		{$searchtype_Valor_Reserva_Presupuestal}
+	</div>
+	<div class="r-search-field">
+		{$Valor_Reserva_Presupuestal_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Valor_Reserva_Presupuestal_editcontrol1}
+	</div>
+	
+</div>
+
+{END Valor_Reserva_Presupuestal_fieldblock}
+											
+{BEGIN Ejecucion_al_corte_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Ejecucion_al_corte}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Ejecucion_al_corte{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field9" {$item_integrated_search_field9} data-pageid="{$pageid}" data-field="Ejecucion_al_corte" data-fieldname="Ejecucion_al_corte" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Ejecucion_al_corte}">
+		{$label 008_reserva Ejecucion_al_corte }	</label>
+	<div class="r-search-option">
+		{$searchtype_Ejecucion_al_corte}
+	</div>
+	<div class="r-search-field">
+		{$Ejecucion_al_corte_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Ejecucion_al_corte_editcontrol1}
+	</div>
+	
+</div>
+
+{END Ejecucion_al_corte_fieldblock}
+											
+{BEGIN Liberaciones_RP_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Liberaciones_RP}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Liberaciones_RP{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field10" {$item_integrated_search_field10} data-pageid="{$pageid}" data-field="Liberaciones_RP" data-fieldname="Liberaciones_RP" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Liberaciones_RP}">
+		{$label 008_reserva Liberaciones_RP }	</label>
+	<div class="r-search-option">
+		{$searchtype_Liberaciones_RP}
+	</div>
+	<div class="r-search-field">
+		{$Liberaciones_RP_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Liberaciones_RP_editcontrol1}
+	</div>
+	
+</div>
+
+{END Liberaciones_RP_fieldblock}
+											
+{BEGIN Fecha_liberacion_RP_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Fecha_liberacion_RP}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Fecha_liberacion_RP{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field11" {$item_integrated_search_field11} data-pageid="{$pageid}" data-field="Fecha_liberacion_RP" data-fieldname="Fecha_liberacion_RP" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Fecha_liberacion_RP}">
+		{$label 008_reserva Fecha_liberacion_RP }	</label>
+	<div class="r-search-option">
+		{$searchtype_Fecha_liberacion_RP}
+	</div>
+	<div class="r-search-field">
+		{$Fecha_liberacion_RP_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Fecha_liberacion_RP_editcontrol1}
+	</div>
+	
+</div>
+
+{END Fecha_liberacion_RP_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

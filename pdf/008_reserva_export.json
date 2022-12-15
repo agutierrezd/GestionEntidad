@@ -1,0 +1,156 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel 008_reserva export}","hidden":"{$item_hide_export_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":{$Numero_Reserva_RP_pdfvalue},"hidden":"{$item_hide_export_field}"},
+				
+				
+			{"text":{$Dependencia_Descripcion_pdfvalue},"hidden":"{$item_hide_export_field1}"},
+				
+				
+			{"text":{$Necesidad_pdfvalue},"hidden":"{$item_hide_export_field2}"},
+				
+				
+			{"text":{$Documento_Soporte_pdfvalue},"hidden":"{$item_hide_export_field3}"},
+				
+				
+			{"text":{$Numero_Documento_Soporte_pdfvalue},"hidden":"{$item_hide_export_field4}"},
+				
+				
+			{"text":{$No_Contrato_y_Contratista_pdfvalue},"hidden":"{$item_hide_export_field5}"},
+				
+				
+			{"text":{$Proyecto_pdfvalue},"hidden":"{$item_hide_export_field6}"},
+				
+				
+			{"text":{$Rubro_Presupuestal_pdfvalue},"hidden":"{$item_hide_export_field7}"},
+				
+				
+			{"text":{$Valor_Reserva_Presupuestal_pdfvalue},"hidden":"{$item_hide_export_field8}"},
+				
+				
+			{"text":{$Ejecucion_al_corte_pdfvalue},"hidden":"{$item_hide_export_field9}"},
+				
+				
+			{"text":{$Liberaciones_RP_pdfvalue},"hidden":"{$item_hide_export_field10}"},
+				
+				
+			{"text":{$Fecha_liberacion_RP_pdfvalue},"hidden":"{$item_hide_export_field11}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+					]
+}
+  

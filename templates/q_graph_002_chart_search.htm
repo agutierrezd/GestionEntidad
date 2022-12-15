@@ -1,0 +1,348 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+		
+	</head>
+
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel q_graph_002_Chart search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN UEJ_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_UEJ}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="UEJ{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="UEJ" data-fieldname="UEJ" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_UEJ}">
+		{$label q_graph_002_Chart UEJ }	</label>
+	<div class="r-search-option">
+		{$searchtype_UEJ}
+	</div>
+	<div class="r-search-field">
+		{$UEJ_editcontrol}	</div>
+	<div class="r-search-field">
+		{$UEJ_editcontrol1}
+	</div>
+	
+</div>
+
+{END UEJ_fieldblock}
+											
+{BEGIN sector_name_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_sector_name}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="sector_name{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="sector_name" data-fieldname="sector_name" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_sector_name}">
+		{$label q_graph_002_Chart sector_name }	</label>
+	<div class="r-search-option">
+		{$searchtype_sector_name}
+	</div>
+	<div class="r-search-field">
+		{$sector_name_editcontrol}	</div>
+	<div class="r-search-field">
+		{$sector_name_editcontrol1}
+	</div>
+	
+</div>
+
+{END sector_name_fieldblock}
+											
+{BEGIN short_name_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_short_name}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="short_name{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="short_name" data-fieldname="short_name" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_short_name}">
+		{$label q_graph_002_Chart short_name }	</label>
+	<div class="r-search-option">
+		{$searchtype_short_name}
+	</div>
+	<div class="r-search-field">
+		{$short_name_editcontrol}	</div>
+	<div class="r-search-field">
+		{$short_name_editcontrol1}
+	</div>
+	
+</div>
+
+{END short_name_fieldblock}
+											
+{BEGIN TIPO_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_TIPO}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="TIPO{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="TIPO" data-fieldname="TIPO" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_TIPO}">
+		{$label q_graph_002_Chart TIPO }	</label>
+	<div class="r-search-option">
+		{$searchtype_TIPO}
+	</div>
+	<div class="r-search-field">
+		{$TIPO_editcontrol}	</div>
+	<div class="r-search-field">
+		{$TIPO_editcontrol1}
+	</div>
+	
+</div>
+
+{END TIPO_fieldblock}
+											
+{BEGIN uej_name_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_uej_name}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="uej_name{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="uej_name" data-fieldname="uej_name" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_uej_name}">
+		{$label q_graph_002_Chart uej_name }	</label>
+	<div class="r-search-option">
+		{$searchtype_uej_name}
+	</div>
+	<div class="r-search-field">
+		{$uej_name_editcontrol}	</div>
+	<div class="r-search-field">
+		{$uej_name_editcontrol1}
+	</div>
+	
+</div>
+
+{END uej_name_fieldblock}
+											
+{BEGIN TOTVIGENTE_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_TOTVIGENTE}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="TOTVIGENTE{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="TOTVIGENTE" data-fieldname="TOTVIGENTE" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_TOTVIGENTE}">
+		{$label q_graph_002_Chart TOTVIGENTE }	</label>
+	<div class="r-search-option">
+		{$searchtype_TOTVIGENTE}
+	</div>
+	<div class="r-search-field">
+		{$TOTVIGENTE_editcontrol}	</div>
+	<div class="r-search-field">
+		{$TOTVIGENTE_editcontrol1}
+	</div>
+	
+</div>
+
+{END TOTVIGENTE_fieldblock}
+											
+{BEGIN TOTCOMPROMISO_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_TOTCOMPROMISO}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="TOTCOMPROMISO{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="TOTCOMPROMISO" data-fieldname="TOTCOMPROMISO" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_TOTCOMPROMISO}">
+		{$label q_graph_002_Chart TOTCOMPROMISO }	</label>
+	<div class="r-search-option">
+		{$searchtype_TOTCOMPROMISO}
+	</div>
+	<div class="r-search-field">
+		{$TOTCOMPROMISO_editcontrol}	</div>
+	<div class="r-search-field">
+		{$TOTCOMPROMISO_editcontrol1}
+	</div>
+	
+</div>
+
+{END TOTCOMPROMISO_fieldblock}
+											
+{BEGIN TOTPAGOS_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_TOTPAGOS}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="TOTPAGOS{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="TOTPAGOS" data-fieldname="TOTPAGOS" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_TOTPAGOS}">
+		{$label q_graph_002_Chart TOTPAGOS }	</label>
+	<div class="r-search-option">
+		{$searchtype_TOTPAGOS}
+	</div>
+	<div class="r-search-field">
+		{$TOTPAGOS_editcontrol}	</div>
+	<div class="r-search-field">
+		{$TOTPAGOS_editcontrol1}
+	</div>
+	
+</div>
+
+{END TOTPAGOS_fieldblock}
+											
+{BEGIN FECHA_ACTUALIZACION_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_FECHA_ACTUALIZACION}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="FECHA_ACTUALIZACION{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="FECHA_ACTUALIZACION" data-fieldname="FECHA_ACTUALIZACION" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_FECHA_ACTUALIZACION}">
+		{$label q_graph_002_Chart FECHA_ACTUALIZACION }	</label>
+	<div class="r-search-option">
+		{$searchtype_FECHA_ACTUALIZACION}
+	</div>
+	<div class="r-search-field">
+		{$FECHA_ACTUALIZACION_editcontrol}	</div>
+	<div class="r-search-field">
+		{$FECHA_ACTUALIZACION_editcontrol1}
+	</div>
+	
+</div>
+
+{END FECHA_ACTUALIZACION_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

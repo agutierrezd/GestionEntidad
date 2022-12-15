@@ -1,0 +1,189 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel 007_cdp import}","hidden":"{$item_hide_import_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":{$Numero_Documento_pdfvalue},"hidden":"{$item_hide_import_field}"},
+				
+				
+			{"text":{$Fecha_de_Registro_pdfvalue},"hidden":"{$item_hide_import_field1}"},
+				
+				
+			{"text":{$Fecha_de_Creacion_pdfvalue},"hidden":"{$item_hide_import_field2}"},
+				
+				
+			{"text":{$Tipo_de_CDP_pdfvalue},"hidden":"{$item_hide_import_field3}"},
+				
+				
+			{"text":{$Estado_pdfvalue},"hidden":"{$item_hide_import_field4}"},
+				
+				
+			{"text":{$Dependencia_pdfvalue},"hidden":"{$item_hide_import_field5}"},
+				
+				
+			{"text":{$Dependencia_Descripcion_pdfvalue},"hidden":"{$item_hide_import_field6}"},
+				
+				
+			{"text":{$Rubro_pdfvalue},"hidden":"{$item_hide_import_field7}"},
+				
+				
+			{"text":{$Descripcion_pdfvalue},"hidden":"{$item_hide_import_field8}"},
+				
+				
+			{"text":{$Fuente_pdfvalue},"hidden":"{$item_hide_import_field9}"},
+				
+				
+			{"text":{$Recurso_pdfvalue},"hidden":"{$item_hide_import_field10}"},
+				
+				
+			{"text":{$Sit_pdfvalue},"hidden":"{$item_hide_import_field11}"},
+				
+				
+			{"text":{$Valor_Inicial_pdfvalue},"hidden":"{$item_hide_import_field12}"},
+				
+				
+			{"text":{$Valor_Operaciones_pdfvalue},"hidden":"{$item_hide_import_field13}"},
+				
+				
+			{"text":{$Valor_Actual_pdfvalue},"hidden":"{$item_hide_import_field14}"},
+				
+				
+			{"text":{$Saldo_por_Comprometer_pdfvalue},"hidden":"{$item_hide_import_field15}"},
+				
+				
+			{"text":{$Objeto_pdfvalue},"hidden":"{$item_hide_import_field16}"},
+				
+				
+			{"text":{$Solicitud_CDP_pdfvalue},"hidden":"{$item_hide_import_field17}"},
+				
+				
+			{"text":{$Compromisos_pdfvalue},"hidden":"{$item_hide_import_field18}"},
+				
+				
+			{"text":{$Cuentas_por_Pagar_pdfvalue},"hidden":"{$item_hide_import_field19}"},
+				
+				
+			{"text":{$Obligaciones_pdfvalue},"hidden":"{$item_hide_import_field20}"},
+				
+				
+			{"text":{$Ordenes_de_Pago_pdfvalue},"hidden":"{$item_hide_import_field21}"},
+				
+				
+			{"text":{$Reintegros_pdfvalue},"hidden":"{$item_hide_import_field22}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+					]
+}
+  
